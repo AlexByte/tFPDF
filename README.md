@@ -15,7 +15,7 @@ is not essential, it allows caching of the font metrics the first time a font is
 making subsequent uses much faster.
 
 All tFPDF requires is a .ttf TrueType font file. The file should be placed in the
-'unifont' directory. Optionally, you can also define the path to your system fonts e.g. 'C:\Windows\Font'
+'unifont' directory. Optionally, you can also define the path to your system fonts e.g. 'C:\Windows\Fonts'
 (see the example ex.php file) and reference TrueType fonts in this directory.
 
 Pass a fourth parameter as true when calling AddFont(), and use utf-8 encoded text 
